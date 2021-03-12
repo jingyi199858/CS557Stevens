@@ -1,0 +1,11 @@
+Wh-NP -> Wh-Pro
+
+Wh-NP -> Wh-Det Nominal
+
+Wh-NP -> Wh-Adv
+
+Wh-Pro -> who, whom, whose, which
+
+Wh-Det -> what, which
+
+Wh-Adv -> why, where, when

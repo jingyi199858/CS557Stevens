@@ -1,0 +1,21 @@
+180:
+The tagging for "can" is not perfected. Since the second "can" should be defined as "NN"
+
+184:
+The percentages for the top 5 tags in the list are:
+
+ADJ  0.12286930405553236
+ADP  0.11326252560813095
+ADV  0.06669053443920679
+CONJ  0.033305487598703186
+DET  0.02702030749646956
+
+186:
+The book has error that list(cfd2['VN']) should instead be list(cfd2['VBN']).
+The VBN words can also serve as adj and adv. It depends on context.
+
+189:
+"right": If it's after adv, it serves as adj. If it's after adj, it serves as adv. If it's after DET, it serves as adj.
+"set": If it's after adv, prt, noun and verb, it serves as verb, otherwise serves as noun.
+"that": If its between adj and verb, or noun and adj, or adp and noun, or verb and adv, it serves as det. Otherwise, mostly it serves
+as adp.

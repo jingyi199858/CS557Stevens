@@ -1,0 +1,20 @@
+The result of the demo is based on a pair of floats which indicates two scores(Package TextBlob):
+the first score is sentiment polarity which tells if the sentiment is positive or negative
+and the second score is subjectivity score to tell how subjective is the text.
+
+The polarity score is a float within the range [-1.0, 1.0].
+The subjectivity is a float within the range [0.0, 1.0] where 0.0 is very objective and 1.0 is very subjective.
+
+The final result is a float indicating polarity of the text, 1.0 is max_positive and -1.0 is max_negative
+
+This model offers a fair polarity ranking for text based on rankings of all words in a sentence.
+But an obvious shortcoming is that ranking a word could simply overrate a sentence.
+For example, the first review in the sheet being "This product so far has not disappointed. My children love to use it and I like the ability to monitor control what content they see with ease."
+And the second is "great for beginner or experienced person. Bought as a gift and she loves it".
+
+The first one is rated 0.325, but the second is rated much more higher, at 0.8. Noticed that the highest would be 1.0.
+Sentimentally, the second review is at the same level as the first one. But noticed that the second one used "great",
+"love", which would highly exceeds "not disappointed" from the first sentence.
+
+The model would need more analysis on connections between context.
+

@@ -1,0 +1,5 @@
+Comparison of embedding methods in A&S and BLK
+
+In A&S example, the model uses word2vec, which is focusing on learning features based on word similarity and analogy.
+
+BLK is using tagging to obtain features of content.

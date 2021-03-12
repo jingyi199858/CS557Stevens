@@ -1,0 +1,25 @@
+Result summary
+
+Q1
+Fit the model with according to the given data: RFMdataMPJ
+Then estimate the probability of classes.
+The accuracy on RFMdataMPJ(~0.76) is not as fancy as which on iris(~0.97)
+Reasons might be:
+1. The dataset of RFMdataMPJ is small (less than 1000 records)
+2. The R.F.M. don't completely determine final decision.
+
+Q2
+Accuracy of this model is not consistent.
+Reasons are:
+1. Training this model for a review needs precise definition of negator-words. People use a lot of negations in reviews.
+2. Context is very complex. People usually use negations on negative words for a positive review.
+
+Q3
+This model uses NLTK brown corpus. And it took few minutes to train the model. The accuracy is not very positive(around 0.6 ~ 0.8).
+A larger corpus provides higher accuracy, but with longer training time.
+
+Q4
+A brief report is under the directory. But I just copy-paste it here for better looking:
+Comparison of embedding methods in A&S and BLK:
+*In A&S example, the model uses word2vec, which is focusing on learning features based on word similarity and analogy.
+*BLK is using tagging to obtain features of words.

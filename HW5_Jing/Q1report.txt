@@ -1,0 +1,53 @@
+For this XOR problem, the model used tensorflow and a hidden layer.
+
+The result doesn't depend on sample size and learning rate.
+
+However, it is determined by convergence of random variables.
+
+The situations that the variables converge or not converge half split,
+
+which make the result move between [0.5,0.5,0.5,0.5] and approx. [0,1,1,0] which is an accurate prediction.
+
+result comparison:
+
+The first try comes with 0.025 loss, and the prediction doesn't match expected values.
+
+step: 0, loss: 0.340
+step: 500, loss: 0.250
+step: 1000, loss: 0.250
+step: 1500, loss: 0.250
+step: 2000, loss: 0.250
+step: 2500, loss: 0.250
+step: 3000, loss: 0.250
+step: 3500, loss: 0.250
+step: 4000, loss: 0.250
+step: 4500, loss: 0.250
+X: array([[0, 0],
+       [0, 1],
+       [1, 0],
+       [1, 1]])
+pred: array([[0.5       ],
+       [0.5       ],
+       [0.50000006],
+       [0.50000006]], dtype=float32)
+
+This second try comes with no loss, and the result is very accurate. Head and tail values almost get to zero.
+
+step: 0, loss: 0.666
+step: 500, loss: 0.000
+step: 1000, loss: 0.000
+step: 1500, loss: 0.000
+step: 2000, loss: 0.000
+step: 2500, loss: 0.000
+step: 3000, loss: 0.000
+step: 3500, loss: 0.000
+step: 4000, loss: 0.000
+step: 4500, loss: 0.000
+X: array([[0, 0],
+       [0, 1],
+       [1, 0],
+       [1, 1]])
+pred: array([[1.0951654e-36],
+       [1.0000000e+00],
+       [1.0000000e+00],
+       [1.0951654e-36]], dtype=float32)

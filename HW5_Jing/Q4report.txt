@@ -1,0 +1,35 @@
+Iterate through all the books and find longest sent in each book,
+
+and store them into a list "longest".
+
+Finally, find the longest sent from all the longest sentences from each book.
+
+The result is fixed, since the longest sent is always the same one.
+
+result:
+
+First, print out the list of all books:
+
+text1: Moby Dick by Herman Melville 1851
+text2: Sense and Sensibility by Jane Austen 1811
+text3: The Book of Genesis
+text4: Inaugural Address Corpus
+text5: Chat Corpus
+text6: Monty Python and the Holy Grail
+text7: Wall Street Journal
+text8: Personals Corpus
+text9: The Man Who Was Thursday by G . K . Chesterton 1908
+
+After collected all the longest sentences from all the books, list all the lengths of all sentences:
+2345
+1370
+764
+4347
+935
+532
+1405
+369
+446
+
+Print out the longest sentence among all the longest sentences:
+4347 On this subject it might become me better to be silent or to speak with diffidence; but as something may be expected, the occasion, I hope, will be admitted as an apology if I venture to say that if a preference, upon principle, of a free republican government, formed upon long and serious reflection, after a diligent and impartial inquiry after truth; if an attachment to the Constitution of the United States, and a conscientious determination to support it until it shall be altered by the judgments and wishes of the people, expressed in the mode prescribed in it; if a respectful attention to the constitutions of the individual States and a constant caution and delicacy toward the State governments; if an equal and impartial regard to the rights, interest, honor, and happiness of all the States in the Union, without preference or regard to a northern or southern, an eastern or western, position, their various political opinions on unessential points or their personal attachments; if a love of virtuous men of all parties and denominations; if a love of science and letters and a wish to patronize every rational effort to encourage schools, colleges, universities, academies, and every institution for propagating knowledge, virtue, and religion among all classes of the people, not only for their benign influence on the happiness of life in all its stages and classes, and of society in all its forms, but as the only means of preserving our Constitution from its natural enemies, the spirit of sophistry, the spirit of party, the spirit of intrigue, the profligacy of corruption, and the pestilence of foreign influence, which is the angel of destruction to elective governments; if a love of equal laws, of justice, and humanity in the interior administration; if an inclination to improve agriculture, commerce, and manufacturers for necessity, convenience, and defense; if a spirit of equity and humanity toward the aboriginal nations of America, and a disposition to meliorate their condition by inclining them to be more friendly to us, and our citizens to be more friendly to them; if an inflexible determination to maintain peace and inviolable faith with all nations, and that system of neutrality and impartiality among the belligerent powers of Europe which has been adopted by this Government and so solemnly sanctioned by both Houses of Congress and applauded by the legislatures of the States and the public opinion, until it shall be otherwise ordained by Congress; if a personal esteem for the French nation, formed in a residence of seven years chiefly among them, and a sincere desire to preserve the friendship which has been so much for the honor and interest of both nations; if, while the conscious honor and integrity of the people of America and the internal sentiment of their own power and energies must be preserved, an earnest endeavor to investigate every just cause and remove every colorable pretense of complaint; if an intention to pursue by amicable negotiation a reparation for the injuries that have been committed on the commerce of our fellow - citizens by whatever nation, and if success cannot be obtained, to lay the facts before the Legislature, that they may consider what further measures the honor and interest of the Government and its constituents demand; if a resolution to do justice as far as may depend upon me, at all times and to all nations, and maintain peace, friendship, and benevolence with all the world; if an unshaken confidence in the honor, spirit, and resources of the American people, on which I have so often hazarded my all and never been deceived; if elevated ideas of the high destinies of this country and of my own duties toward it, founded on a knowledge of the moral principles and intellectual improvements of the people deeply engraven on my mind in early life, and not obscured but exalted by experience and age; and, with humble reverence, I feel it to be my duty to add, if a veneration for the religion of a people who profess and call themselves Christians, and a fixed resolution to consider a decent respect for Christianity among the best recommendations for the public service, can enable me in any degree to comply with your wishes, it shall be my strenuous endeavor that this sagacious injunction of the two Houses shall not be without effect .

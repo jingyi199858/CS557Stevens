@@ -1,0 +1,17 @@
+5.1:
+1.flight/NN
+2.diner/NN
+3.have/VBP
+4.list/VB
+5.nonstop/RB
+
+5.2:
+1. It/PRP is/VBZ a/DT nice/JJ night/NN ./.
+2. This/DT crap/NN game/NN is/VBZ over/IN a/DT garage/NN in/IN Fifty-second/NNP Street/NNP. . .
+3. . . .Nobody/NN ever/RB takes/VBZ the/DT newspapers/NNS she/PRP sells/VBZ. . .
+4. He/PRP is/VBZ a/DT tall/JJ ,/, skinny/JJ guy/NN with/IN a/DT long/JJ ,/, sad/JJ ,/, mean-looking/JJ kisser/NN ,/, and/CC a/DT mournful/JJ voice/NN ./.
+5. . . . I/PRP am/VBP sitting/VBG in/IN Mindy/NNP ’s/POS restaurant/NN putting/VBG on/RP the/DT gefillte/NN fish/NN ,/, which/WDT is/VBZ a/DT dish/NN I/PRP am/VBP very/RB fond/JJ of/RP ,/, . . .
+6. When/WRB a/DT guy/NN and/CC a/DT doll/NN get/VBP to/TO taking/VBG peeks/NNS back/RB and/CC forth/RB at/IN each/DT other/JJ ,/, why/WRB there/EX you/PRP are/VBP indeed/RB ./.
+
+5.3:
+In the sixth sentence, "each other" could be defined as "each/DT" and "other/JJ", but if we define it as "each other/PRP", we might get more precise tagging result.
